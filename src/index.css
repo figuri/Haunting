@@ -1,0 +1,121 @@
+/* General container styling */
+html, body {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-color: #1b1b1b; /* Dark background color */
+    font-family: 'Arial', sans-serif;
+  }
+
+.home-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #1b1b1b; /* Dark background */
+    color: #e07a5f; /* Warm accent color */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Title styling */
+  .title {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #f4a261; /* Warm orange color */
+  }
+  
+  /* Subtitle styling */
+  .subtitle {
+    font-size: 1.5em;
+    margin-bottom: 40px;
+    color: #e07a5f; /* Warm coral color */
+  }
+  
+  /* Mission container styling */
+  .mission-container {
+    background-color: #333333; /* Darker background for contrast */
+    padding: 20px;
+    border-radius: 10px;
+    width: 80%;
+    max-width: 600px;
+  }
+  
+  /* Mission title styling */
+  .mission-title {
+    font-size: 2em;
+    margin-bottom: 10px;
+    color: #f4a261; /* Warm orange color */
+  }
+  
+  /* Mission text styling */
+  .mission-text {
+    font-size: 1.2em;
+    color: #e07a5f; /* Warm coral color */
+  }
+  
+ /* Navbar container styling */
+.navbar {
+    background-color: #333333; /* Dark background */
+    padding: 10px 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.5); /* Slight shadow for depth */
+  }
+  
+  /* Nav list styling */
+  .nav-list {
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Nav item styling */
+  .nav-item {
+    font-size: 1.2em;
+  }
+  
+  /* Nav link styling */
+  .nav-link {
+    color: #f4a261; /* Warm orange color */
+    text-decoration: none;
+    transition: all 0.3s ease; /* Smooth transition for hover effects */
+  }
+  
+  /* Nav link hover effect */
+  .nav-link:hover {
+    color: #ffe8d6; /* Lighter warm color */
+    transform: scale(1.1); /* Slightly increase size */
+  }
+  
+  /* Nav link active state styling */
+  .nav-link:visited,
+  .nav-link:active {
+    color: #f4a261; /* Same color as default state after click */
+  }
+  
+  #root {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  /* Footer container styling */
+  .footer {
+    background-color: #333333; /* Darker background for the footer */
+    padding: 10px 20px;
+    text-align: center;
+    box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5); /* Slight shadow for depth */
+    color: #f4a261; /* Warm orange color */
+    font-size: 1.2em;
+  }
+  
+  /* Ensure footer text is centered */
+  .footer-text {
+    margin: 0;
+  }
