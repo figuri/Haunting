@@ -12,14 +12,25 @@ html, body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    height: 100vh;
     background-color: #1b1b1b; /* Dark background */
     color: #e07a5f; /* Warm accent color */
     font-family: 'Arial', sans-serif;
     text-align: center;
-    padding: 20px;
+    padding: 50px;
+  }
+
+  .homeImgContainer {
+    margin: 30px;
+  }
+
+  .hauntImgCaption {
+    font-size: 20px;
   }
   
+  .hauntHomeImg {
+    border-radius: 15px;
+  }
+
   /* Title styling */
   .title {
     font-size: 3em;

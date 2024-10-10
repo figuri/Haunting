@@ -15,6 +15,9 @@ export default function Home() {
           experience the thrill of a haunted house.
         </p>
       </div>
+      <div className="homeImgContainer"></div>
+      <p className='hauntImgCaption'>Upcoming Haunted House</p>
+      <img className='hauntHomeImg' src='haunt3.jpg'></img>
     </div>
   );
 }
