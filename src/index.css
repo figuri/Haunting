@@ -7,6 +7,33 @@ html, body {
     font-family: 'Arial', sans-serif;
   }
 
+  /* info styling */
+
+  .info-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1b1b1b; /* Dark background */
+    color: #e07a5f; /* Warm accent color */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 50px;
+  }
+
+  .infoImgContainer {
+    margin: 30px;
+  }
+
+  .infoImgCaption {
+    font-size: 20px;
+  }
+  
+  .infoHomeImg {
+    border-radius: 15px;
+    max-width: 60%
+  }
+
 .home-container {
     display: flex;
     flex-direction: column;
@@ -29,8 +56,77 @@ html, body {
   
   .hauntHomeImg {
     border-radius: 15px;
+    max-width: 500px
   }
 
+  .teamHeader {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #1b1b1b; /* Dark background */
+    color: #e07a5f; /* Warm accent color */
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    padding: 50px;
+  }
+
+  /* team styling */
+  .team {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .teamMember {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #555;
+    max-width: 100%;
+  }
+
+  .teamMember h3 {
+    margin: 30px;
+    color: #f4a261;
+  }
+  
+  .teamMember p {
+    flex: 1;
+    padding-right: 20px;
+    color: #f4a261;
+  }
+  
+  .teamMember .teamImage {
+    margin: 20px;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    order: 2; /* Ensures the image is on the right */
+  }
+  
+  .teamHeader {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .teamHeader h2 {
+    font-size: 2em;
+  }
+  
+  .teamHeader p {
+    font-size: 1.2em;
+    color: #555;
+  }
+
+  /* opposite color styling for Mari */
+
+  .specialStyle {
+    background-color: black;
+  }
+  
   /* Title styling */
   .title {
     font-size: 3em;
@@ -124,9 +220,19 @@ html, body {
     box-shadow: 0 -2px 5px rgba(0, 0, 0, 0.5); /* Slight shadow for depth */
     color: #f4a261; /* Warm orange color */
     font-size: 1.2em;
+    align-items: center;
   }
   
   /* Ensure footer text is centered */
   .footer-text {
     margin: 0;
+  }
+
+  .join {
+    max-width: 50%;
+    margin: 0 auto;
+  }
+
+  .insta, .facebook {
+    margin-left: 40px;
   }
