@@ -148,6 +148,13 @@ html, body {
   transform: scale(1.1);
 }
 
+/* Nav link visited and active state styling */
+
+.nav-link:focus {
+    color: rgba(203, 61, 0, 0.827); /* Red color after click */
+}
+
+
 /* Footer styling */
 .footer {
   background-color: #333333;
@@ -170,6 +177,36 @@ html, body {
 .insta, .facebook {
   margin-left: 40px;
 }
+
+/* error page */
+
+/* Error page container */
+.error-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #1b1b1b; /* Dark background */
+  color: #e07a5f; /* Warm coral color for text */
+  font-family: 'Arial', sans-serif;
+  text-align: center;
+  padding: 50px;
+}
+
+/* Error title */
+.error-title {
+  font-size: 3em;
+  color: #f4a261; /* Warm orange color */
+  margin-bottom: 20px;
+}
+
+/* Error message */
+.error-message {
+  font-size: 1.5em;
+  color: #ffe8d6; /* Light warm color for the message */
+}
+
 
 /* Media Queries */
 

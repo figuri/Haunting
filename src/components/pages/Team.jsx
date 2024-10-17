@@ -14,7 +14,7 @@ function Team() {
             id: 2,
             name: 'Mari',
             bio: 'My name is Mari Wakefield. I have a 2 year old beautiful daughter Shyanne .I have been married 20 years to the most supportive haunt husband ever. Raised in Pacifica, live in Tracy. I love: my horses, my truck, camping, fishing with my family, and my haunt. I started condemned compound 2014 in Tracy, CA. Alex Acosta and I merged together as haunt partners back in 2019. In 2022 our haunt had grown too big in Tracy and we needed to move; and here we are Brentwood. I was raised growing up with a halloween mom. She decorated inside the house and out; She was known for her halloween tree in Pacifica ca. I carried on the tradition each year and now in her memory. So halloween isnt just a holiday for me; it is life.',
-            image: 'https://via.placeholder.com/150', // Replace with real image URL
+            image: 'mari.jpg', // Replace with real image URL
           },
         ];
   return (

@@ -2,9 +2,9 @@
 
 export default function Error() {
     return (
-        <div>
-            <h1>Error</h1>
-            <p>Page not found!</p>
+        <div className="error-container">
+            <h1 className="error-title">Error</h1>
+            <p className="error-message">Page not found!</p>
         </div>
-    )
+    );
 }
